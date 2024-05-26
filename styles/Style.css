@@ -1,0 +1,113 @@
+.navbar, .footer{
+    background-color: #e9c8e5;
+}
+
+.caja{
+    position: relative;
+}
+
+.title-container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: deeppink;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-family: "Briem Hand", cursive;
+}
+
+.title{
+    font-size: 60px;
+    text-shadow: 1px 1px 2px black, 0 0 1em pink, 0 0 0.2em pink;
+}
+
+@media screen and (min-width: 600px) {
+    .title {
+        font-size: 90px;
+    }
+}
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-item img{
+    height: 400px;
+}
+
+.nav-link{
+    color: deeppink;
+    font-family: "Briem Hand", cursive;
+}
+
+.cards{
+    width: 18vw;
+    margin-top: 3vw;
+}
+
+body{
+    background-image: url(/ImagenesAmazingEvents/Full\ Page.png);
+    color:  deeppink;
+    font-family: "Briem Hand", cursive;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    align-items: center;
+}
+
+.Formato-container, .detalles-container{
+    padding: 0 16px;
+}
+
+.Formato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 90px auto;
+}
+
+.ubtn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.move{
+   width: 100%;
+}
+
+.detalles{
+    margin: 69px auto;
+    max-width: 1000px;
+    color: rgb(250, 123, 191);
+}
+
+p, span, h5, .card-title{
+    color: deeppink;  
+}
+
+.stats-table-container {
+    padding: 0 16px;
+}
+
+.stats-table {
+    max-width: 1000px;
+    margin: 69px auto;
+    border-color: deeppink;
+}
+
+.stats-table .stats-table-header {
+    color: deeppink;
+    background-color: rgb(255, 183, 221);
+}
+
+.stats-table td {
+    color: deeppink;
+    height: 41px; 
+    background-color:rgba(248, 200, 226, 0.6);
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home AE</title>
+  <link rel="icon" href="/ImagenesAmazingEvents/favicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/styles/Style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <img src="/ImagenesAmazingEvents/amazing_brand.png" alt="Bootstrap" height="30">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="btn btn-outline-light me-2">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="btn btn-outline-light me-2">
+              <a class="nav-link" href="/html/PastEvents.html">Past Events</a>
+            </li>
+            <li class="btn btn-outline-light me-2">
+              <a class="nav-link" href="/html/UpcomingEvents.html">Upcoming Events</a>
+            </li>
+            <li class="btn btn-outline-light me-2">
+              <a class="nav-link" href="/html/Contact.html">Contact</a>
+            </li>
+            <li class="btn btn-outline-light me-2">
+              <a class="nav-link" href="/html/Stats.html">Stats</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!--Carousel-->
+    <div class="caja">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/ImagenesAmazingEvents/optional_banner_5.jpg" class="d-block w-100 object-fit-cover" alt="Concert">
+        </div>
+        <div class="carousel-item">
+          <img src="/ImagenesAmazingEvents/optional_banner_2.jpg" class="d-block w-100 object-fit-cover" alt="Theather">
+        </div>
+        <div class="carousel-item">
+          <img src="/ImagenesAmazingEvents/optional_banner_4.jpg" class="d-block w-100 object-fit-cover" alt="Flashligths">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+    </div>
+    <div class="title-container">
+      <h1 class="title">HOME</h1>
+    </div>
+  </div>
+
+    <!--Checkboxs-->
+    <div class="d-flex justify-content-between m-5 flex-wrap">
+      <div class="d-flex fs-5 text flex-wrap">
+        <div class="form-check me-4">
+          <input class="form-check-input" type="checkbox" value="" id="check-01">
+          <label class="form-check-label" for="check-01">
+            Marathon
+          </label>
+        </div>
+        <div class="form-check me-4">
+          <input class="form-check-input" type="checkbox" value="" id="check-02">
+          <label class="form-check-label" for="check-02">
+            Concert
+          </label>
+        </div>
+        <div class="form-check me-4">
+          <input class="form-check-input" type="checkbox" value="" id="check-03">
+          <label class="form-check-label" for="check-03">
+            Party
+          </label>
+        </div>
+        <div class="form-check me-4">
+          <input class="form-check-input" type="checkbox" value="" id="check-04">
+          <label class="form-check-label" for="check-04">
+            Cinema
+          </label>
+        </div>
+        <div class="form-check me-4">
+          <input class="form-check-input" type="checkbox" value="" id="check-05">
+          <label class="form-check-label" for="check-05">
+            Museum
+          </label>
+        </div>
+      </div>
+
+      <!-- Search y Button-->
+      <div class="d-flex justify-content-end">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Tarjetas-->
+    <div class="container d-flex justify-content-between m-5 flex-wrap" id="tarjs"> 
+    </div>
+  </main>
+  <!--Footer-->
+  <footer class="footer">
+    <div class="d-flex justify-content-between p-2">
+    <div class="d-flex align-items-center">
+      <div class="face m-2">
+        <a href="https://www.facebook.com/KarolGOficial">
+          <img src="/ImagenesAmazingEvents/facebook.png" alt="Facebook" height="32">
+        </a>
+      </div>
+      <div class="insta m-2">
+        <a href="https://www.instagram.com/ibaillanos/?hl=es">
+          <img src="/ImagenesAmazingEvents/instagram.png" alt="instagram" height="32">
+        </a>
+      </div>
+      <div class="whats m-2">
+        <a href="https://api.whatsapp.com/send?phone=584123456789&text=Hola%2C%20te%20envío%20un%20mensaje%20desde%20mi%20sitio%20web"
+          target="_blank">
+          <img src="/ImagenesAmazingEvents/whatsapp.png" alt="Imagen de WhatsApp" height="32">
+        </a>
+      </div>
+    </div>
+      <div class="d-flex flex-column text-center">
+        <h5>
+          COHORT 3
+        </h5>
+        <h5>
+          JACKELINE PRADO
+        </h5>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="/src/home.js"></script>
+</body>
+</html>
